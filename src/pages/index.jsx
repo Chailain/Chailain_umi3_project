@@ -1,11 +1,12 @@
-import styles from './index.less';
-import { Button } from 'antd';
+import MyScope from '@/components/MyScope'
+import MyTable from '@/components/MyTable'
+
 
 export default function IndexPage() {
   return (
-    <div>
-      <Button type="danger">Primary Button</Button>
-      <h1 className={styles.title}>Page index</h1>
-    </div>
+    <>
+      <MyScope />
+      <MyTable />
+    </>
   );
 }
