@@ -1,12 +1,9 @@
-import MyScope from '@/components/MyScope'
-import MyTable from '@/components/MyTable'
-
+import Pub from './Goods/Pub';
 
 export default function IndexPage() {
   return (
     <>
-      <MyScope />
-      <MyTable />
+      <Pub />
     </>
   );
 }
